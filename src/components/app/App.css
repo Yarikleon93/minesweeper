@@ -1,0 +1,36 @@
+
+
+body, html {
+  background-color: #282c34;
+}
+
+#minefield {
+	overflow: hidden;
+	border: 3px solid;
+  border-color: #7d7d7d #fff #fff #7d7d7d;
+  width: 320px;
+  height: 320px;
+}
+
+#minefield div {
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url('./minesweeper.png') no-repeat;
+}
+
+#minefield .covered { background-position: 0 -39px; }
+#minefield .mines0 { background-position: 0 -23px; }
+#minefield .mines1 { background-position: -16px -23px; }
+#minefield .mines2 { background-position: -32px -23px; }
+#minefield .mines3 { background-position: -48px -23px; }
+#minefield .mines4 { background-position: -64px -23px; }
+#minefield .mines5 { background-position: -80px -23px; }
+#minefield .mines6 { background-position: -96px -23px; }
+#minefield .mines7 { background-position: -112px -23px; }
+#minefield .mines8 { background-position: -128px -23px; }
+#minefield .mine-hit { background-position: -32px -39px; }
+#minefield .mine-misflagged { background-position: -48px -39px; }
+#minefield .mine { background-position: -64px -39px; }
+#minefield .mineflag { background-position: -16px -39px; }
+#minefield .question { background-position: -80px -39px; }
