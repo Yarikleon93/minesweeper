@@ -15,3 +15,4 @@ export const CELL = {
   FLAG: 'mineflag',
   QUESTION: 'question',
 }
+
